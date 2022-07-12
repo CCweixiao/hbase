@@ -393,4 +393,8 @@ public class CombinedBlockCache implements ResizableBlockCache, HeapSize {
   public LruBlockCache getOnHeapCache() {
     return onHeapCache;
   }
+
+  public BlockCache getSecondLevelCache() {
+    return l2Cache;
+  }
 }
