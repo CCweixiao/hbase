@@ -1317,7 +1317,6 @@ under the License.
     <project>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcpkix-jdk18on</artifactId>
-
       <licenses>
         <!-- bcpkix-jdk18on is licensed under the Bouncy Castle License, which is equivalent to the MIT License -->
         <license>
