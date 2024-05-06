@@ -76,7 +76,7 @@ public class TestFlushFromClient {
 
   @AfterClass
   public static void tearDownAfterClass() throws Exception {
-    IOUtils.cleanup(null, asyncConn);
+    IOUtils.cleanupWithLogger(null, asyncConn);
     TEST_UTIL.shutdownMiniCluster();
   }
 
