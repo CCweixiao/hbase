@@ -169,7 +169,7 @@ class MetricsRegionServerWrapperImpl
     }
     if (this.blockCache != null) {
       if (this.blockCache instanceof CombinedBlockCache) {
-        l1Cache = ((CombinedBlockCache) this.blockCache).getFirstLevelCache();
+        l1Cache = ((CombinedBlockCache) this.blockCache).getOnHeapCache();
         l2Cache = ((CombinedBlockCache) this.blockCache).getSecondLevelCache();
       } else {
         l1Cache = this.blockCache;
